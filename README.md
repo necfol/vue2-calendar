@@ -8,7 +8,7 @@ A calendar component for vue.js **compitable with vue 2.x**
 >
 >
 > ```
-> https://github.com/GilbertSun/vue-calendar
+> [GilbertSun/vue-calendar](http://gilbertsun.github.io/vue-calendar)
 > ```
 
 
