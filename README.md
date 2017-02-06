@@ -7,9 +7,9 @@ A calendar component for vue.js **compitable with vue 2.x**
 > if you want to use calendar component for vue.js(1.x), please visit
 >
 >
-> ```
-> [GilbertSun/vue-calendar](http://gilbertsun.github.io/vue-calendar)
-> ```
+```
+[GilbertSun/vue-calendar](http://gilbertsun.github.io/vue-calendar)
+```
 
 
 ## examples
