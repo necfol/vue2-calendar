@@ -5,12 +5,12 @@
   "author": "necfol <necfoll@gmail.com>",
   "main": "lib/index.js",
   "packageName": "vue2canlendar",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.demo.js --open --inline --hot",
     "deploy": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.demo.js --progress --hide-modules",
     "build": "webpack --config ./build/webpack.config.js --progress --hide-modules",
-    "pub": "npm version patch && npm publish && git push --all",
+    "pub": "npm publish && git push --all",
     "prepublish": "npm run build"
   },
   "repository": {
