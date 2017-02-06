@@ -1,5 +1,5 @@
 <template>
-  <calendar :view="view" :decorate="decorate" :sub="sub" :selected="selected" :current-view="currentView" :start-date="startDate" :indicator="indicator" :start-monday="true" @prev="prev" @next="next" @today="today" @onPropsChange="change">
+  <calendar :view="view" :decorate="decorate" :sub="sub" :current-view.sync="currentView" :start-date.sync="startDate" :indicator="indicator" :start-monday="true" @prev="prev" @next="next" @today="today">
     <div class="actions" slot="action">
       <div class="action" @click="changeView">{{viewName}}</div>
       <div class="action" @click="addEvent">加</div>
@@ -37,8 +37,7 @@
         },
         currentView: {},
         indicator: {},
-        startDate: new Date,
-        selected: new Date
+        startDate: new Date
       }
     },
     computed: {
@@ -58,9 +57,6 @@
       }
     },
     methods: {
-      change(propName,newVal,oldVal){
-        this[propName]=newVal;
-      },
       dealWithIndicator(startDate) {
         let indicator = {}
         if (startDate.getMonth() <= 6) {
