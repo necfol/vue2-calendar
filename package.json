@@ -1,9 +1,10 @@
 {
   "name": "vue2-calendar",
   "description": "A Vue.js project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "necfol <necfoll@gmail.com>",
   "main": "lib/index.js",
+  "homepage": "https://github.com/necfol/formattime#readme",
   "packageName": "vue2canlendar",
   "private": false,
   "scripts": {
